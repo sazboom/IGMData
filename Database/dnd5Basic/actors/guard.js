@@ -4,7 +4,7 @@ var dnd5BasicActorGuard = {
 	toHitStack : [
 		{
 			source: 'actor',
-			type: 'static',
+			datatype: 'static',
 			bonus: 4
 		}
 	],
@@ -12,7 +12,7 @@ var dnd5BasicActorGuard = {
 	onHitStack : [
 		{
 			source: 'actor',
-			type: 'static',
+			datatype: 'static',
 			bonus: 4
 		}
 	],

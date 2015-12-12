@@ -7,7 +7,7 @@ var dnd5BasicShortSword = {
 		{
 			mechanic : 'damage',
 			effect : 'physical',
-			type : 'slashing',
+			datatype : 'slashing',
 			dieRolls : 1,
 			dieSides : 6
 		}
