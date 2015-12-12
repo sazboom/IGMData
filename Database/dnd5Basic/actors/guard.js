@@ -9,7 +9,13 @@ var dnd5BasicActorGuard = {
 		}
 	],
 	toAvoidStack : [],
-	onHitStack : [],
+	onHitStack : [
+		{
+			source: 'actor',
+			type: 'static',
+			bonus: 4
+		}
+	],
 	proficiencyBonus : 0,
 	attributes: 	{
 		'str':10,
