@@ -1,9 +1,11 @@
 var dnd5BasicActorGuard = {
 	attackPaths : ['igm-data/Database/dnd5basic/attacks/shortSword'], 
 	defensePaths : [],
-	toHitStack : [	
+	toHitStack : [
 		{
-			
+			source: 'actor',
+			type: 'static',
+			bonus: 4
 		}
 	],
 	toAvoidStack : [],

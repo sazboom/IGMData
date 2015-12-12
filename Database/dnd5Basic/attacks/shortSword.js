@@ -2,6 +2,7 @@ var dnd5BasicShortSword = {
 	shortName: "sword",
 	longName: "a sword",
 	attackType: 'standard',
+	toHitStack: [],
 	onHitStack: [
 		{
 			mechanic : 'damage',
