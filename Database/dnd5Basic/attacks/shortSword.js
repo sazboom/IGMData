@@ -1,8 +1,8 @@
 var dnd5BasicShortSword = {
-	this.shortName = "sword"
-	this.longName = "a sword"
-	this.attackType = 'standard'
-	this.onHitStack = [
+	shortName: "sword",
+	longName: "a sword",
+	attackType: 'standard',
+	onHitStack: [
 		{
 			mechanic : 'damage',
 			effect : 'physical',
