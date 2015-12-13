@@ -1,6 +1,6 @@
 var dnd5BasicActorGuard = {
 	attackPaths : ['igm-data/Database/dnd5basic/attacks/shortSword'], 
-	defensePaths : ['igm-data/Database/dnd5basic/defense/leatherArmor'],
+	defensePaths : ['igm-data/Database/dnd5basic/defenses/leatherArmor'],
 	toHitStack : [
 		{
 			source: 'actor',
